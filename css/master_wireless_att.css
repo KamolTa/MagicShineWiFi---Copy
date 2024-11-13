@@ -1,0 +1,1304 @@
+html * {
+	margin: 0;
+	padding: 0;
+	}
+body {
+	font-size: 62.5%;
+	line-height: 1.5em;
+	}
+fieldset, img {
+	border: 0;
+	}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+	}
+caption,th {
+	text-align: left;
+	}
+ul {
+    list-style-type:none;
+    }
+h1 {
+	font-size: 2.2em;
+	margin-bottom:0.5em;
+	font-weight: normal;
+	}
+h2 {
+	font-size: 1.3em;
+	}
+h3 {
+	font-size: 1.2em;
+	}
+h4 {
+	font-size: 1.1em;
+	}
+h5 {
+	font-size: 1.0em;
+	}
+h6 {
+	font-size: 1.6em;
+	}
+input, select, th, td {
+	font-size: 1.0em;
+	}
+a img, :link img, :visited img { 
+	border: none 
+	}
+address { 
+	font-style: normal 
+	}
+p {
+    margin: 1em 0;
+	}
+	
+	body
+{
+    font-family: Verdana, Helvetica, sans-serif;
+    color:#666666;
+    background-color: #ededed;
+}
+h1
+{
+    color:#333333;
+}
+p, a, li, span, td, th
+{
+    font-size: 1.1em;
+}
+p a, li a, li span, a span, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, td p, td a, td span, td li,
+td h2, td h3, td h4, li li, th p, th a, th span, th li, th h2, th h3, th h4
+{
+    font-size: 1.0em;
+}
+a:link
+{
+    text-decoration:none;
+    color: #0A94D6;
+}
+a:active
+{
+    outline:none;
+}
+
+a:visited
+{
+    text-decoration:none;
+    color: #0A94D6;
+}
+
+a:hover
+{
+    text-decoration:underline;
+    color: #0A94D6;
+}
+
+#container
+{
+    margin: 0 auto;
+    width: 985px;
+    background: url(../images/page_midSlice.gif) 0 0 repeat-y transparent;
+    /*background: url(../images/landingPage_heightGrid.jpg) 0 0 no-repeat transparent;*/
+}
+
+#page
+{
+    margin: 0 auto;
+    width: 950px;
+}
+
+#content
+{
+    clear:both;
+}
+
+#primary-content
+{
+    clear:both;
+}
+
+#header
+{
+    clear: both;
+    padding-top:10px;
+}
+
+#topNav
+{
+    clear: both;
+}
+
+#footer
+{
+    clear: both;
+}
+#btmContainer
+{
+    clear: both;
+    margin: 0 auto;
+    width:985px;
+    height:5px;
+    background: url(../images/page_btmSlice.gif) 100% 100% no-repeat transparent;
+}
+/********************
+    Forms
+*********************/
+#search
+{
+    margin-right:5px;
+    vertical-align:bottom;
+}
+#learnAbout
+{
+    margin-top:5px;
+    margin-right:5px;
+    vertical-align:bottom;
+    width:140px;
+}
+#checkCoverage
+{
+    margin-right:5px;
+    vertical-align:bottom;
+    width:25%;
+}
+#numberLookup
+{
+    vertical-align:bottom;
+}
+/********************
+    Font Treatments
+*********************/
+.orange
+{
+    color:#f27d00;
+}
+
+.orangeCaps
+{
+    color:#f27d00;
+    text-transform:uppercase;
+}
+
+/********************
+    Mods
+*********************/
+.mod_a /* 1px border box with tall gradient bg and 12px padding */
+{
+    background: url(../images/mod_a_gradientSlice.gif) 0 100% repeat-x transparent;
+    margin-bottom:12px;
+    padding:12px;
+    border: 1px solid #ccc;
+}
+
+.mod_b
+{
+    padding:12px;
+}
+
+.mod_c, .mod_c2, .mod_c3 /* 1px border box  */
+{
+    margin-bottom:12px;
+    padding:12px;
+    border: 1px solid #ccc;
+}
+
+.mod_c2, .mod_c3
+{
+	width:228px;
+	height:125px;
+	padding:0;
+    background-repeat:no-repeat;
+    background-position:100% 100%;
+}
+
+.mod_c3
+{
+	height:138px;
+}
+
+.mod_d /* 1px border to left of content area */
+{
+    clear:both;
+    padding:12px;
+    border-left: 1px solid #ccc;
+}
+.mod_d2 /* 1px border to left of content area NO RIGHT PADDING */
+{
+    clear:both;
+    padding:12px 0 12px 12px;
+    border-left: 1px solid #ccc;
+}
+.mod_d3 /* 1px border to left of content area when multi classing a column*/
+{
+    padding-left:12px;
+    margin-left:-12px !important;
+
+    border-left: 1px solid #ccc;
+}
+
+.mod_e /* 1px border box with tall gradient bg FOR BUSINESS PAGES ONLY */
+{
+    background: url(../images/B2B_pinstripes.gif) 0 100% repeat-x transparent;
+    margin-bottom:12px;
+    padding:12px;
+    border: 1px solid #ccc;
+}
+
+.mod_f  /* 1px border box with tall gradient bg NO PADDING*/
+{
+    background: url(../images/mod_a_gradientSlice.gif) 0 100% repeat-x transparent;
+    margin-bottom:12px;
+    border: 1px solid #ccc;
+}
+
+.mod_g /* 1px top,left,right border no bottom padding */
+{
+    padding:12px;
+    border: 1px solid #ccc;
+    border-bottom:0px;
+}
+
+.mod_h  /* 1px border box with NO gradient bg NO PADDING*/
+{
+    margin-bottom:12px;
+    border: 1px solid #ccc;
+}
+
+.mod_i
+{
+    padding:12px;
+    padding-top:0px;
+}
+.mod_j /* 1px top, left, bottom border box*/
+{
+    padding:12px;
+    border: 1px solid #ccc;
+    border-right:0;
+}
+.mod_k /* 1px top, right, bottom border box*/
+{
+    padding:12px;
+    border: 1px solid #ccc;
+    border-left:0;
+}
+
+.mod_l /* 1px border box with tall gradient bg FOR BUSINESS PAGES ONLY NO PADDING */
+{
+    background: url(../images/B2B_pinstripes.gif) 0 100% repeat-x transparent;
+    margin-bottom:12px;
+    border: 1px solid #ccc;
+}
+
+.mod_m
+{
+	float:left;
+	padding:12px;
+}
+
+.mod_n
+{
+	float:left;
+	width:468px;
+	height:138px;
+	border: 1px solid #ccc;
+}
+
+.mod_o, .mod_p  /* support landing page double column - fixed dimensions */
+{
+    float:left;
+    margin-bottom:12px;
+    padding:12px;
+    border: 1px solid #ccc;
+    width:324px;
+    height:100px;
+}
+
+.mod_p /* right column on support landing page with double columns */
+{
+   margin-left:10px;
+}
+
+.mod_error /* 1px Orange border for form errors */
+{
+    background:#ffd8d9;
+    margin-bottom:12px;
+    color:#f00;
+    padding:5px;
+    border: 1px solid #f00;
+}
+
+.checkoutButtons
+{
+    margin-top:-13px;
+    padding:12px;
+    border:1px solid #ccc;
+    text-align:right;
+}
+.modClear
+{
+    clear:both;
+}
+
+.mainHomePromo
+{
+	background-repeat:no-repeat;
+	width:707px;
+	height:257px;
+}
+
+.mainHomePromo2
+{
+	width:950px;
+	height:290px;
+	margin-top:12px;
+	margin-bottom:12px;
+}
+
+/********************
+ Content Block Templates
+*********************/
+.contentBlock_a /* image to the left of content using .floatLftPadRgt in divs */
+{
+clear:both;
+padding:10px 0;
+}
+.contentBlock_b img /*img on top or bottom of content*/
+{
+padding:10px 0;
+}
+.contentBlock_c img  /*img with content wrapped around img on right using align="right" on img tag */
+{
+padding:0 0 10px 10px;
+}
+.contentBlock_d  /* image to the left of content using align="right" on p tag and align="left" on img tag */
+{
+vertical-align:top;
+}
+.contentBlock_e  /* used in parent div for two columns at 50% width */
+{
+clear:both;
+}
+.contentBlock_e ul
+{
+margin-top:12px;
+}
+.contentBlock_e  li.first
+{
+font-weight:bold;
+}
+.contentBlock_e li a
+{
+padding:0 10px 0 0;
+border-right:1px solid #ccc;
+}
+.contentBlock_e li a.last
+{
+padding-left:10px;
+border:0;
+}
+.contentBlock_e li a.first
+{
+padding:0;
+border:0;
+}
+.contentBlock_f   /* main block (used on about landing) with large bg img *INLINE* flush to border */
+{
+padding-left:12px;
+padding-right:12px;
+}
+.contentBlock_f h2
+{
+padding-top:12px;
+}
+.contentBlock_g  /* h4 top margin 1em.  p tag bottom margin 1 em. */
+{
+}
+    .contentBlock_g h4
+    {
+    	margin-top:1em;
+    }
+    .contentBlock_g p
+    {
+    	margin-bottom:1em;
+    	margin-top:0;
+    }
+.topicContentBlock /* Topic list with page bookmarks in H2's or H4's*/
+{
+clear:both;
+}
+.topicContentBlock ul.padded li
+{
+padding:5px 0;
+}
+.topicContentBlock h2 a:hover
+{
+text-decoration:none;
+color:#666666;
+}
+.topicContentBlock h4 a:hover
+{
+text-decoration:none;
+color:#666666;
+}
+.pageTools li
+{
+padding:5px 0 0 10px;
+}
+.pageTools img
+{
+padding-right:5px;
+}
+/********************
+  ContentBlock Misc.
+*********************/
+.floatLftPadRgt /* example usage in conjunction with contentBlock_a in endnode_4.jsp */
+{
+padding-right:12px;
+float:left;
+}
+.floatLeftEvenCol /* example usage in conjunction with contentBlock_e in endnode_5.jsp */
+{
+float:left;
+width:49%;
+}
+ul.discUl
+{
+list-style-type:disc;
+margin-left:13px;
+}
+
+ul.discUl2
+{
+	list-style-type:disc;
+	margin-left:15px;
+}
+.textNav li a /* General horizontal links with pipe to the right of each (used on About Us landing page)*/
+{
+    padding:0 5px;
+    border-right:1px solid #ccc;
+}
+    .textNav li a.first
+    {
+        padding-left:0;
+    }
+    .textNav li a.last
+    {
+        border:0;
+    }
+/********************
+    Buttons
+*********************/
+
+/* addded by nin*/
+.button-blue {
+	color:#FFFFFF;
+	border:1px solid #FFFFFF;
+	background-color:#4db4bb;
+	padding-left:5px;
+	padding-right:5px; 
+	padding-top:1px; 
+	padding-bottom:1px;	
+	cursor:pointer;
+	font-weight:bold;
+}
+.button-purple {
+	color:#FFFFFF;
+	border:1px solid #FFFFFF;
+	background-color:purple;
+	padding-left:5px;
+	padding-right:5px; 
+	padding-top:1px; 
+	padding-bottom:1px;			
+	cursor:pointer;
+	font-weight:bold;
+}
+.button-orange {
+	color:#FFFFFF;
+	border:1px solid #FFFFFF;
+	background-color:#fd9d06;
+	padding-left:5px;
+	padding-right:5px; 
+	padding-top:1px; 
+	padding-bottom:1px;		
+	cursor:pointer;
+	font-weight:bold;
+}
+.button-green {
+	color:#FFFFFF;
+	border:1px solid #FFFFFF;
+	background-color:#8ae633;
+	padding-left:5px;
+	padding-right:5px; 
+	padding-top:1px; 
+	padding-bottom:1px;		
+	cursor:pointer;
+	font-weight:bold;
+}
+.button-login {
+	color:#FFFFFF;
+	border:1px solid #FFFFFF;
+	background-color:purple;	
+	padding-left:5px;
+	padding-right:5px;  
+	padding-top:1px; 
+	padding-bottom:1px;	
+/*	width:50px; 
+	height:20px;  */
+	cursor:pointer;
+	font-weight:bold;
+}
+.button-alert {
+	color:#FFFFFF;
+	border:1px solid #FFFFFF;
+	background-color:purple;	
+ 	padding-left:5px;
+	padding-right:5px; 
+	padding-top:1px; 
+	padding-bottom:1px;	 
+	cursor:pointer;
+/*	font-weight:bold;*/
+}
+
+/* addded by nin END */
+
+
+
+.buttonStyle-1 /* Blue GO Button */
+{
+    width:52px;
+    height:18px;
+    border:0;
+    background: url(../images/New_btn_go.gif) 0 0 no-repeat transparent;
+    cursor: pointer;
+}
+.buttonStyle-2 table td  /* link in a table aligned right can be used with any img.*/
+{
+    padding-right:5px;
+    text-align:right;
+    width:100%;
+    line-height:1.1em;
+}
+.buttonStyle-2a table td  /* link in a table aligned left can be used with any img.*/
+{
+    padding-right:5px;
+    text-align:left;
+    line-height:1.1em;
+}
+
+.buttonStyle-2b table td
+{
+	padding-top:100px;
+	padding-right:5px;
+    text-align:left;
+    line-height:1.1em;
+}
+
+.buttonStyle-2c table td
+{
+	padding-top:115px;
+	padding-right:5px;
+    text-align:left;
+    line-height:1.1em;
+}
+.buttonStyle-2d table td
+{
+    padding-right:5px;
+    text-align:right;
+    width:100%;
+    line-height:1.1em;
+    padding-top:10px;
+}
+
+
+.buttonStyle-3 /*caged arrow, blue with white carrot...2nd Level Links*/
+{
+    width:13px;
+    height:13px;
+    border:0;
+    background: url(../images/btn_box_arrow_right.gif) 0 0 no-repeat transparent;
+    cursor: pointer;
+}
+.buttonStyle-4 /*preview link to popup or inline popup..little boxes*/
+{
+    width:9px;
+    height:9px;
+    border:0;
+    background: url(../images/btn_preview.gif) 0 0 no-repeat transparent;
+    cursor: pointer;
+}
+.buttonStyle-5 /*small blue up arrow*/
+{
+    width:7px;
+    height:7px;
+    border:0;
+    background: url(../images/btn_arrow_up.gif) 0 0 no-repeat transparent;
+    cursor: pointer;
+}
+.buttonStyle-6 /*small blue right arrow*/
+{
+    width:4px;
+    height:7px;
+    border:0;
+    background: url(../images/btn_arrow_right.gif) 0 0 no-repeat transparent;
+    cursor: pointer;
+}
+.buttonStyle-7 /*small blue left arrow*/
+{
+    width:4px;
+    height:7px;
+    border:0;
+    background: url(../images/btn_arrow_left.gif) 0 0 no-repeat transparent;
+    cursor: pointer;
+}
+.buttonStyle-8 /*pdf mail in rebate/download button*/
+{
+    width:13px;
+    height:13px;
+    border:0;
+    background: url(../images/btn_pdf.gif) 0 0 no-repeat transparent;
+    cursor: pointer;
+}
+.buttonStyle-9  /*add to cart BuyFlow button */
+{
+    width:94px;
+    height:18px;
+    border:0;
+    background: url(../images/btn_add_to_cart.gif) 0 0 no-repeat transparent;
+    cursor: pointer;
+}
+.buttonStyle-10 /*next Utility Service button*/
+{
+    width:83px;
+    height:18px;
+    border:0;
+    background: url(../images/btn_next.gif) 0 0 no-repeat transparent;
+    cursor: pointer;
+}
+.buttonStyle-11 /*order now BuyFlow button*/
+{
+    width:94px;
+    height:18px;
+    border:0;
+    background: url(../images/btn_order_now.gif) 0 0 no-repeat transparent;
+    cursor: pointer;
+}
+.buttonStyle-12 /*back Utility Service button*/
+{
+    width:83px;
+    height:18px;
+    border:0;
+    background: url(../images/btn_back.gif) 0 0 no-repeat transparent;
+    cursor: pointer;
+}
+.buttonStyle-13 /*cancel Utility Service button*/
+{
+    width:83px;
+    height:18px;
+    border:0;
+    background: url(../images/btn_cancel.gif) 0 0 no-repeat transparent;
+    cursor: pointer;
+}
+.buttonStyle-14 /*complete order BuyFlow button*/
+{
+    width:117px;
+    height:18px;
+    border:0;
+    background: url(../images/btn_complete_order.gif) 0 0 no-repeat transparent;
+    cursor: pointer;
+}
+.buttonStyle-17 /*question mark button Utility*/
+{
+    width:13px;
+    height:13px;
+    border:0;
+    background: url(../images/btn_help.gif) 0 0 no-repeat transparent;
+    cursor: pointer;
+}
+.buttonStyle-18 /*compare Utility button*/
+{
+    width:83px;
+    height:18px;
+    border:0;
+    background: url(../images/btn_compare.gif) 0 0 no-repeat transparent;
+    cursor: pointer;
+}
+
+.buttonStyle-19  /*update cart*/
+{
+    width:93px;
+    background: url(../images/btn_update_cart.gif) 0 0 no-repeat transparent;
+}
+
+
+
+
+
+
+
+
+
+/********************
+    Misc.
+*********************/
+.horizRule, .horizRule2
+{
+clear:both;
+margin:1em 0;
+border-top:1px solid #ccc;
+}
+.horizRule2
+{
+	margin:.25em 0;
+	border-top:1px solid #b5cacb;
+}
+div.horizDash, div.horizDash2
+{
+	background-image:url(../images/splice_horz_sep.gif);background-repeat:repeat-x;width:210px;height:1px;padding-top:5px;
+}
+div.horizDash2
+{
+    width:200px;
+    margin:5px 0 0 0;
+}
+
+div.horizDash3
+{
+	background-image:url(../images/splice_horz_sep.gif);
+	background-repeat:
+	repeat-x;
+	height:1px;
+    margin:5px 0 ;
+}
+div.vertDash
+{
+	float:left;width:1px;height:110px;margin-top:8px;background-image:url(../images/splice_listItemSeparator.gif);background-repeat:repeat-y;
+}
+.padRgt
+{
+padding-right:10px;
+}
+.padLft
+{
+padding-left:15px;
+}
+.colMargTop
+{
+    margin-top:40px;
+}
+div.finePrnt
+{
+	width:50%;
+}
+
+p.finePrnt
+{
+	font-size: .9em;
+}
+
+.fltL
+{
+	float:left;
+}
+
+.fltR
+{
+	float:right;
+}
+.bold
+{
+	font-weight:bold;
+}
+p.noMargin
+{
+    margin:0;
+}
+h2.marginTop
+{
+    margin-top:10px;
+}
+h2.marginBtm
+{
+    margin-bottom:10px;
+}
+ul.list2
+{
+	margin-left:20px;
+}
+.margTop
+{
+	margin-top:5px;
+}
+.margBtm
+{
+	margin-bottom:5px;
+}
+.padBtm
+{
+    padding-bottom:10px;
+}
+.bar
+{
+	color:#e5e5e5;
+}
+.caps
+{
+    text-transform:uppercase;
+}
+
+
+.listControls
+{
+	padding-top:10px;
+	height:25px;
+}
+
+.listContainer
+{
+	clear:both;
+	border-bottom:
+	solid 1px #ccc;
+}
+
+.listCxb
+{
+	float:left;
+	background-color:#EBEFFA;
+	width:40px;
+	text-align:center;
+	height:170px;
+	padding-top:10px;
+	border-right:solid 1px #ccc;
+}
+
+.listItemContainer, .listItemContainer2
+{
+	clear:both;
+	border:solid 1px #ccc;
+	border-bottom:0;
+	height:180px;
+}
+
+.listItemContainer2
+{
+    height:150px;
+}
+
+.lstItmCntntBx, .lstItmCntntBx2, .lstItmCntntBx3
+{
+	float:left;
+	width:735px;
+}
+
+.lstItmCntntBx2
+{
+	width:770px;
+}
+
+.lstItmCntntBx3
+{
+	width:540px;
+}
+
+
+
+.listPreviewBtn
+{
+	float:right;
+	vertical-align:bottom;
+	margin-top:5px;
+}
+
+.viewDetailsLink
+{
+	float:left;
+	margin-top:5px;
+	margin-right:10px;
+}
+
+.listItemTextContainer, .listItemTextContainer2, .listItemTextContainer3
+{
+	float:left;
+	width:380px;
+	padding-top:10px;
+	padding-left:15px;
+}
+
+.listItemTextContainer2
+{
+	width:420px;
+}
+
+.listItemTextContainer3
+{
+	width:400px;
+}
+
+.listItemCrtTlzContainer, .listItemCrtTlzContainer2, .listItemCrtTlzContainer3
+{
+	clear:both;
+	margin-left:20px;
+	border-top:solid 1px #ccc;
+	padding-top:5px;
+	width:710px;
+}
+
+.listItemCrtTlzContainer2
+{
+	width:750px;
+}
+
+.listItemCrtTlzContainer3
+{
+	width:550px;
+}
+
+.listItemCrtTlz
+{
+	float:right;
+	vertical-align:top;
+}
+
+.viewDetailsIconContainer
+{
+	margin-top:10px;
+	margin-left:15px;
+}
+
+.listItemPhoneContainer
+{
+	float:left;
+	width:100px;
+	text-align:center;
+	padding-top:15px;
+}
+
+.listItemPriceContainer
+{
+	float:left;
+	position:relative;
+	padding-top:10px;
+	padding-left:10px;
+	height:130px;
+	width:225px;
+}
+
+.listSort
+{
+	width:200px;
+}
+.listBrand
+{
+	width:200px;
+}
+.listVersion
+{
+	width:100px;
+}
+
+
+/*****************************
+	Plan details tab section
+*****************************/
+
+.planTabTable
+{
+	width:500px;
+}
+.planTabTable_440
+{
+	width:440px;
+}
+.planTabPriceColumn
+{
+
+	text-align:right;
+	vertical-align:bottom;
+}
+
+table.planTabXtraContent
+{
+	display:none;
+}
+
+td.planTabXtraContent
+{
+	border:solid 1px #ccc;
+	padding:5px;
+}
+
+
+/*
+	Coverage Viewer
+*/
+.cvrgVwrContainer
+{
+	float:right;
+	width:290px;
+	border:solid 1px #ccc;
+	height:120px;
+	padding:10px;
+	margin-left:20px;
+}
+
+
+.cvrgVwrForm
+{
+	vertical-align:middle;
+	float:right;
+	margin-top:15px;
+}
+
+.cvrgVwrText
+{
+	float:left;
+}
+
+.cvrgVwrInput
+{
+	width:40px;
+}
+
+.btnQuestion
+{
+	vertical-align:middle;
+	margin-left:4px;
+}
+
+.wirelessLookup
+{
+	background-image:url(../images/splice_horz_sep.gif);
+	background-repeat:repeat-x;
+	padding-top:10px;
+}
+
+
+.wirelessLookup
+{
+	text-align:right;
+}
+
+/**********************
+    Learn landing pages
+************************/
+.learnFxdLftMod
+{
+    float:left;
+    width: 330px;
+    padding-bottom:0;
+}
+.learnFxdRgtMod
+{
+    float:left;
+    width: 335px;
+    padding-bottom:0;
+}
+.learnFxdHgtMod
+{
+    height:229px;
+}
+.learnFxdHgtHero
+{
+    height:110px;
+}
+/**********************
+   Shop landing page
+************************/
+.shopFxdHgtMod
+{
+    height:224px;
+}
+.shopFxdRgtMod
+{
+    height:200px;
+}
+.shopFxdBtmMod
+{
+    height:132px;
+}
+/**********************
+   Phones and Devices landing page
+************************/
+.pdFxdRgtMod
+{
+    height:87px;
+}
+.pdFxdHgtMod
+{
+    height:184px;
+}
+.pdFxdMidMod
+{
+    height:13px;
+}
+/**********************
+   GoPhone landing page
+************************/
+.goFxdRgtMod
+{
+    height:81px;
+}
+/********************
+	Search Results
+********************/
+.srchItmBox
+{
+	clear:both;
+	padding-top:8px;
+	margin-bottom:10px;
+}
+
+.srchItmTxt
+{
+	float:left;
+	width:65%;
+}
+
+.srchItmGrf
+{
+	float:left;
+	width:140px;
+	padding-top:3px;
+	padding-left:5px;
+	padding-right:8px;
+	text-align:right;
+}
+
+/********************
+	Find a Store
+********************/
+
+.storeLstDk, .storeLstLt
+{
+	width:478px;
+	border:solid 1px #ccc;
+	border-bottom:0;
+	background-color:#f5f5f5;
+}
+
+.storeLstLt
+{
+	background-color:#fff;
+}
+
+.storeIdx
+{
+	width:18px;
+	vertical-align:top;
+}
+
+.storeInfo
+{
+	width:220px;
+	vertical-align:top;
+}
+
+.storePhn
+{
+	width:140px;
+	vertical-align:top;
+}
+
+.storeDis
+{
+	vertical-align:top;
+}
+
+/* SUPPORT */
+
+.deviceSpec
+{
+	width:660px; border:1px solid #ccc; height:200px;overflow: auto;padding:10px;margin-top:10px;
+}
+
+.tutorSteps
+{
+	text-align:center;border:solid 1px #ccc;padding:10px;vertical-align:top;
+}
+
+
+.searchNav ul
+{
+float:left;
+padding:4px 3px 4px 40px;
+list-style-type:none;
+}
+    .searchNav ul li
+    {
+    float:left;
+    }
+		.searchNav ul li a
+		{
+		padding:0 10px;
+		border-right:1px solid #ccc;
+		}
+		.searchNav ul li.last a
+		{
+		padding:0 0 0 10px;
+		border:0;
+		}
+		.searchNav ul li img
+		{
+		padding-right:5px;
+		}
+.register_lft
+{
+margin-top:14px;
+float:right;
+text-align:right;
+width:341px;
+height:25px;
+background:url(../images/topNav/mycing_bx_l.gif) 0 0 no-repeat transparent;
+}
+    .register_rgt
+    {
+    padding-top:4px;
+    height:25px;
+    background:url(../images/topNav/mycing_bx_r.gif) 100% 0 no-repeat transparent;
+    }
+   
+    	.register_lft a
+    	{
+    	padding:0 10px;
+    	border-right:1px solid #ccc;
+    	}
+    	.register_lft a.last
+    	{
+    	border:0;
+    	}    
+    
+		#ftrNav
+{
+text-align:left;
+padding:5px 5px;
+}
+    #ftrNav a
+    {
+    padding:0 10px;
+    border-right:1px solid #ccc;
+    }
+    #ftrNav a.last
+    {
+    border:0;
+    }
+#legalFtr
+{
+margin:0 auto;
+width: 985px;
+text-align:center;
+}
+    #legalFtr a
+    {
+    padding:0 10px;
+    border-right:1px solid #ccc;
+    }
+    #legalFtr a.last
+    {
+    border:0;
+    }
+.grayDiv p
+{
+    padding-left:150px;
+    display:inline;
+    color:#ccc;
+}    
+    
